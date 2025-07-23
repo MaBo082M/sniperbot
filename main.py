@@ -31,9 +31,10 @@ async def sniper_loop():
         print("[SNIPER] Suche nach Token-Launches …")
         await asyncio.sleep(5)
 
+# Letzter Teil deiner Datei
 async def main():
-    asyncio.create_task(sniper_loop())
-    await dp.start_polling()
+    asyncio.create_task(sniper_loop())  # Sniper läuft im Hintergrund
+    await dp.start_polling()            # TelegramBot startet
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())
