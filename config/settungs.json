@@ -1,0 +1,6 @@
+{
+  "wallet": "ECVTN4M59WkZtWw6oGhUvG9iXo5hWYC2WVccirmowhVz",
+  "solana_rpc": "https://api.mainnet-beta.solana.com",
+  "target_profit_percent": 10,
+  "max_loss_percent": 5
+}
