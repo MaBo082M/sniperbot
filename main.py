@@ -26,10 +26,12 @@ async def sniper_loop():
         await asyncio.sleep(5)
 
 async def main():
+    print("[SYSTEM] Starte SniperLoop ...")
     asyncio.create_task(sniper_loop())
+    
+    print("[SYSTEM] Starte TelegramBot...")
     await dp.start_polling()
 
 if __name__ == "__main__":
+    print("[SYSTEM] Initialisiere Bot...")
     asyncio.run(main())
-  
-
